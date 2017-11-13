@@ -8,3 +8,4 @@ cmake -G 'Unix Makefiles' \
         -DLLVM_BUILD_TOOLS:BOOL=OFF \
         -DLLVM_INCLUDE_TESTS:BOOL=OFF \
         ".."
+make llc
